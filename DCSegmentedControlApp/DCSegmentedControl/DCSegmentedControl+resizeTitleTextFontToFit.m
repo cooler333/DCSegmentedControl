@@ -7,10 +7,10 @@
 //
 
 
-#import "UISegmentedControl+DCSegmentedControl.h"
+#import "DCSegmentedControl+resizeTitleTextFontToFit.h"
 
 
-@implementation UISegmentedControl (DCSegmentedControl)
+@implementation UISegmentedControl (resizeTitleTextFontToFit)
 
 - (void)resizeTitleTextFontToFit {
     

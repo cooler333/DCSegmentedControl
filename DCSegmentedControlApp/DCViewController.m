@@ -8,7 +8,7 @@
 
 
 #import "DCViewController.h"
-#import "UISegmentedControl+DCSegmentedControl.h"
+#import "DCSegmentedControl+resizeTitleTextFontToFit.h"
 
 
 @interface DCViewController ()
@@ -44,7 +44,7 @@ static NSInteger segmentCount = 4; // Change it if you need
         [_segmentedControl insertSegmentWithTitle:veryLongString atIndex:i animated:NO];
     }
     
-//    [_segmentedControl resizeTitleTextFontToFit];
+    [_segmentedControl resizeTitleTextFontToFit];
 }
 
 - (void)didReceiveMemoryWarning

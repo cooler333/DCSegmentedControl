@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface UISegmentedControl (DCSegmentedControl)
+@interface UISegmentedControl (resizeTitleTextFontToFit)
 
 - (void)resizeTitleTextFontToFit;
 
