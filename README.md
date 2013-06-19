@@ -1,6 +1,6 @@
 # DCSegmentedControl
 
-## UISegmentedControl + auto-shrink(autoresizable) title
+### UISegmentedControl + auto-shrink(autoresizable) title
 
 #### UISegmentedControl with custom method
 <p align="center" >
