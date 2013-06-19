@@ -7,7 +7,7 @@
   <img src="https://dl.dropboxusercontent.com/u/52966385/GitHub/DCSegmentedControl/iOS%20Simulator%20Screen%20shot%2019.06.2013%2C%2015.01.12.png" alt="AFNetworking" title="AFNetworking">
 </p>
 
-UISegmentedControl without custom method
+### UISegmentedControl without custom method
 
 <p align="center" >
   <img src="https://dl.dropboxusercontent.com/u/52966385/GitHub/DCSegmentedControl/iOS%20Simulator%20Screen%20shot%2019.06.2013%2C%2015.01.19.png" alt="AFNetworking" title="AFNetworking">
