@@ -1,5 +1,5 @@
 //
-//  DCViewController.h
+//  UISegmentedControl+DCSegmentedControl.h
 //  DCSegmentedControlApp
 //
 //  Created by Admin on 19.06.13.
@@ -10,10 +10,8 @@
 #import <UIKit/UIKit.h>
 
 
-@interface DCViewController : UIViewController {
-    
-    __weak IBOutlet UISegmentedControl *_segmentedControl;
-    
-}
+@interface UISegmentedControl (DCSegmentedControl)
+
+- (void)resizeTitleTextFontToFit;
 
 @end

@@ -18,6 +18,7 @@
 		8466C4901771B5BA00BF62A4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466C48F1771B5BA00BF62A4 /* Default-568h@2x.png */; };
 		8466C4931771B5BA00BF62A4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8466C4911771B5BA00BF62A4 /* MainStoryboard.storyboard */; };
 		8466C4961771B5BA00BF62A4 /* DCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466C4951771B5BA00BF62A4 /* DCViewController.m */; };
+		8466C49F1771B75200BF62A4 /* UISegmentedControl+DCSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466C49E1771B75200BF62A4 /* UISegmentedControl+DCSegmentedControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		8466C4921771B5BA00BF62A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		8466C4941771B5BA00BF62A4 /* DCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCViewController.h; sourceTree = "<group>"; };
 		8466C4951771B5BA00BF62A4 /* DCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCViewController.m; sourceTree = "<group>"; };
+		8466C49D1771B75200BF62A4 /* UISegmentedControl+DCSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UISegmentedControl+DCSegmentedControl.h"; path = "DCSegmentedControl/UISegmentedControl+DCSegmentedControl.h"; sourceTree = "<group>"; };
+		8466C49E1771B75200BF62A4 /* UISegmentedControl+DCSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UISegmentedControl+DCSegmentedControl.m"; path = "DCSegmentedControl/UISegmentedControl+DCSegmentedControl.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +86,10 @@
 		8466C47F1771B5BA00BF62A4 /* DCSegmentedControlApp */ = {
 			isa = PBXGroup;
 			children = (
+				8466C4911771B5BA00BF62A4 /* MainStoryboard.storyboard */,
+				8466C49C1771B6C900BF62A4 /* DCSegmentedControl */,
 				8466C4881771B5BA00BF62A4 /* DCAppDelegate.h */,
 				8466C4891771B5BA00BF62A4 /* DCAppDelegate.m */,
-				8466C4911771B5BA00BF62A4 /* MainStoryboard.storyboard */,
 				8466C4941771B5BA00BF62A4 /* DCViewController.h */,
 				8466C4951771B5BA00BF62A4 /* DCViewController.m */,
 				8466C4801771B5BA00BF62A4 /* Supporting Files */,
@@ -105,6 +109,15 @@
 				8466C48F1771B5BA00BF62A4 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8466C49C1771B6C900BF62A4 /* DCSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				8466C49D1771B75200BF62A4 /* UISegmentedControl+DCSegmentedControl.h */,
+				8466C49E1771B75200BF62A4 /* UISegmentedControl+DCSegmentedControl.m */,
+			);
+			name = DCSegmentedControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +190,7 @@
 				8466C4861771B5BA00BF62A4 /* main.m in Sources */,
 				8466C48A1771B5BA00BF62A4 /* DCAppDelegate.m in Sources */,
 				8466C4961771B5BA00BF62A4 /* DCViewController.m in Sources */,
+				8466C49F1771B75200BF62A4 /* UISegmentedControl+DCSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +313,7 @@
 				8466C49B1771B5BA00BF62A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
